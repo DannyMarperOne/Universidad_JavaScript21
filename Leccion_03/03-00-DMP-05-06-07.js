@@ -33,3 +33,21 @@ z = a !== b; //se revisa valor sin importar el tipo, puede comparar numeros y ca
 console.log(z); //true
 z = a !== c; //se revisa valor sin importar el tipo, puede comparar numeros y cadenas
 console.log(z);
+
+/* ----------------------------------------------- */
+//OPERADORES RELACIONALES
+let d = 3,
+    f = 2,
+    g = "3";
+
+let y = d < f;
+console.log(y); //false
+
+y = d <= f;
+console.log(y); //false
+
+y = d > f;
+console.log(y); //true
+
+y = d >= f;
+console.log(y); //true 
