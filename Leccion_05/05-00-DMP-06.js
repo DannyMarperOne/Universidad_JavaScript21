@@ -1,5 +1,5 @@
 //ETIQUETAS o LABEL
-iniciar: //asi se declara una etiqueta y esta sirve para ir a alguna parte del programa que nosotros deseemos
+iniciar: //asi se declara una etiqueta y esta sirve para ir a alguna parte del programa que nosotros deseemos.
 
     for (let contador = 0; contador <= 10; contador++) {
         if (contador % 2 !== 0) {
