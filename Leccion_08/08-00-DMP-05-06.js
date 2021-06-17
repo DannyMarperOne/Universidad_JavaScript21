@@ -31,7 +31,7 @@ console.log(persona);
 console.log(persona.nombre + ' ' + persona.apellido);
 
 
-//for in
+//for in (creo pasa por todos los atributos)
 for (nombrePropiedad in persona) {
     console.log(persona[nombrePropiedad]);
 }
