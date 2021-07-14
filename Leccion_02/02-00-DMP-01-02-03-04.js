@@ -1,18 +1,19 @@
 /* Ejemplos de tipos de dato en JavaScript */
 
-//Tipo de Dato String
+//-----------------Tipo de Dato String
 var nombre = "Daniel"; /* cadena de caracteres debe ir entre doble comilla */
 console.log(nombre);
 
-/* en javascript las variables pueden cambiar su tipo de dato sin problemas las variables se les conoce como variables dinamicas*/
-nombre = 10.5;
-console.log(typeof nombre); //para saber el de que tipo de dato es el que contiene una variable se una el operador typeof
+/* en javascript las variables pueden cambiar su tipo de dato sin problemas las variables se les conoce como "Variables Dinamicas" */
 
-//Tipo de dato Numerico
-var numero = 100;
+nombre = 10.5;
+console.log(typeof nombre); //para saber el tipo de dato  que contiene una variable se usa el operador "typeof"
+
+//------------------Tipo de dato Numerico
+var numero = 100; //Este tipo de dato se escribe sin comillas
 console.log(numero);
 
-//Tipo de Dato Object
+//------------------Tipo de Dato Object
 var objeto = {
     nombre: "Juan",
     apellido: "Perez",
@@ -20,19 +21,20 @@ var objeto = {
 };
 console.log(objeto);
 
-//Tipo de Dato Boolean (true, false)
+//------------------Tipo de Dato Boolean (true, false)
 var bandera = true;
 console.log(typeof bandera);
+console.log(bandera);
 
-//Tipo de Dato Function
+//------------------Tipo de Dato Function
 function miFuncion() {}
 console.log(miFuncion);
 
-//Tipo de Dato Symbol
+//------------------Tipo de Dato Symbol
 var simbolo = Symbol("Mi Simbolo");
 console.log(typeof simbolo);
 
-//Tipo clase es una function
+//------------------Tipo clase (es una function)
 class Persona {
     constructor(nombre, apellido) {
         this.nombre = nombre; //This es para hacer referencia a los atributos de una clase
@@ -41,8 +43,9 @@ class Persona {
 }
 
 console.log(typeof Persona);
+console.log(Persona);
 
-//Tipo de Dato Undefind
+//-----------------Tipo de Dato Undefind
 var x;
 console.log(x);
 
@@ -53,7 +56,12 @@ console.log(x);
 var y = null;
 console.log(y);
 
+
+
+
+/* ----------------ARREGLOS--------------- */
 //Arreglo pero un arreglo es de tipo object
+
 var autos = ['BMW', 'AUDI', 'VOLVO'];
 console.log(autos);
 console.log(typeof autos);

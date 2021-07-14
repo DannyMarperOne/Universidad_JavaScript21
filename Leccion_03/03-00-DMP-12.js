@@ -1,6 +1,6 @@
 //OPERADOR TERNARIO
 
-//ternario se compone  de tres partes 
+//ternario se compone  de tres partes (condicion ? verdadero : falso) 
 let resultado = (3 > 2) ? "verdadero" : "falso"; //revisa la expresion si 3 es mayor que dos entoces el resultado es verdadero y ese resultado se le asigna a la variable resultado y se omitira el valor de falso
 console.log(resultado);
 

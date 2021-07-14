@@ -4,7 +4,7 @@ let a = 3,
     b = 2,
     c = "3";
 //Operador de comparacion de igual a igual
-let z = a == b; //se revisa valor sin importar el tipo, puede comparar numeros y cadenas
+let z = a == b; //se revisa valor sin importar el tipo de dato, puede comparar numeros y cadenas
 console.log(z); //false
 z = a == c; //se revisa valor sin importar el tipo, puede comparar numeros y cadenas
 console.log(z); //true

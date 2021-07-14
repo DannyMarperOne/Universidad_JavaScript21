@@ -37,8 +37,8 @@ console.log(z);
 /* primero se incrementa el valor a la variable a y despues ese valor se le asigna a la variable z */
 //Post-Incremento (el operador ++ despues de la variable)
 z = b++;
-console.log(b);
 console.log(z);
+console.log(b);
 /* primero el valor de b se asigna a la variable z y despues se hace el incremento en la variable b */
 
 //DECREMENTO
@@ -47,8 +47,9 @@ z = --a; //aqui el valor de a es 4 porque arriba se hizo una operacion donde le 
 console.log(a);
 console.log(z);
 /* el valor de la variable a primero se resta y posteriormente se le asigna ese valor a la variable z */
+
 //Post-Decremento
 z = b--; //por las operaciones anteriores, b ahora tiene valor de 3
-console.log(b);
 console.log(z);
+console.log(b);
 /* el valor de b se asigna primero a la variable z y despues se hace la resta y el resultado se asigna a la variable b */

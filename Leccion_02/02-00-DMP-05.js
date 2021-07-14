@@ -18,3 +18,6 @@ x = 2 + 4 + nombre;
 console.log(x);
 
 /* Si dos numeros se encuentran antes de una cadena, estos hacen su operacion matematiaca y se une la cadena despues, en cambio, si primero esta la cadena y despues los numeros, todo se maneja como cadena aunque alla numeros */
+
+x = 2 + 4 + 2; //cuando son tipo numerico todos los parametro entonces no se concatena, se hace la operación
+console.log(x);
