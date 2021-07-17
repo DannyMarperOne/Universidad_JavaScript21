@@ -17,7 +17,7 @@ if (hora >= 6 && hora <= 11) {
 } else if (hora >= 0 && hora < 6) {
     saludo = "Durmiendo";
 } else {
-    saludo = "Hora no existe";
+    saludo = "Hora Incorrecta";
 }
 
 console.log(saludo);

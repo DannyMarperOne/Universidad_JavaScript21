@@ -1,7 +1,7 @@
 //METODOS DENTRO DE LOS OBJETOS
 
 //ASI SE DEFINE UN OBJETO
-//para agregar un uevo metodo es similar a agregar una propiedad.
+//para agregar un nuevo metodo es similar a agregar una propiedad.
 let persona = {
     nombre: 'Juan',
     apellido: 'Hernandez',

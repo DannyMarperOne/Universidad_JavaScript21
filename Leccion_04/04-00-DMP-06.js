@@ -1,7 +1,7 @@
 //SWITCH
 
 //Numero a Texto pero con Switch
-let numero = 4;
+let numero = 3;
 let numeroTexto = "Valor Desconocido";
 
 switch (numero) { //son distintos casos que se van ejecuntando para encontrar el resultado

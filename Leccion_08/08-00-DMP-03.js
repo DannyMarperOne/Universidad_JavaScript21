@@ -38,3 +38,4 @@ persona2.tel = '2323238402';
 
 //acceder a los atributos
 console.log(persona2.tel);
+console.log(persona2);

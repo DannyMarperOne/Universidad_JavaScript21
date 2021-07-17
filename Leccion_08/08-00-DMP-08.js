@@ -9,8 +9,8 @@ let persona = {
     get lang() {
         return this.idioma.toUpperCase(); //toUpperCase convierte cadenas de texto minusculas en Mayusculas
     },
-    set lang(lang) { //el metodo set tambien se llamaba lang, pero lo cambie a lango para no confundirme
-        this.idioma = lang.toUpperCase();
+    set lang(_lang) { //en este momento _lang vale "en"
+        this.idioma = _lang.toUpperCase();
     },
     get nombreCompleto() {
         return this.nombre + ' ' + this.apellido;
@@ -38,7 +38,7 @@ console.log(persona.idioma);
 
      fuera del objeto se le da un nuevo valor al idioma con el codigo persona.lang = 'en';, se coloca lang ya que es el parametro que se le asigno al metodo set lang
 
-     lo que sucedera será lo siguiente: de forma indirecta el codigo persona.lang = 'en'; manda a llamar el metodo set lang y el valor "en" se le pasara al parametro (lang), se recibira el valor de 'en' y antes de que se asigne al atributo idioma,lo convierte a mayusculas y despues se lo asigna a el atributo idioma
+     lo que sucedera será lo siguiente: de forma indirecta el codigo persona.lang = 'en'; manda a llamar el metodo set lang y el valor "en" -----------se le pasara al parametro (_lang), el  recibira el valor de 'en'------------ y antes de que se asigne al atributo idioma,lo convierte a mayusculas y despues se lo asigna a el atributo idioma
       lo cual imprimira idioma ES
     
       (OJO PARA QUE FUNCIONE EL METODO, EL METODO Y EL PARAMETRO DEBEN LLAMARSE IGUAL YA QUE SE MANDA A LLAMAR ASI MISMO (CREO))

@@ -19,5 +19,5 @@ console.log(resultado);
 
 /* ----------------------------------------- */
 
-//PARAMETROS: Lista de variables que definimos en una funcion
-//ARGUMENTOS: Son los valores que pasamos cuando mandamos a llamar una funcion
+//PARAMETROS: Lista de variables que definimos en una funcion (a,b)
+//ARGUMENTOS: Son los valores que pasamos cuando mandamos a llamar una funcion (2,5)

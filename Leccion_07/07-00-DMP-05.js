@@ -6,6 +6,7 @@
 function miFuncion(a, b) {
     //arguments sirve para ver cuantos argumentos tiene mi funcion(solo se usa dentro de la funcion), arguments muestra que las funciones tambien son objetos
     console.log(arguments.length);
+
     return a + b;
 }
 

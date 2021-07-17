@@ -13,7 +13,7 @@ console.log(autos);
 /* 
     Ojo, en javascript para acceder a los elemntos se eligen empezando de 0 a infinito 
 
-    por ejemplo si quiero elegir BMW se comolocaria el indice 0, di quiero FERRARI sera colocar el indice 2, si quiero elegir Mercedez Benz seria el indice 1
+    por ejemplo si quiero elegir BMW se comolocaria el indice 0, si quiero FERRARI sera colocar el indice 2, si quiero elegir Mercedez Benz seria el indice 1
 */
 
 console.log(autos[0]);
@@ -22,7 +22,7 @@ console.log(autos[1]);
 
 /* PARA PASAR POR TODOS LOS ELEMENTOS A TRAVES DE UN CICLO FOR */
 
-//length propociona el largo o la cantidad de elementos que tiene el arreglo
+//"length" propociona el largo o la cantidad de elementos que tiene el arreglo
 
 for (let i = 0; i < autos.length; i++) {
     console.log(i + ' : ' + autos[i]);

@@ -9,13 +9,12 @@ let x = 10;
 function cambiarValor(a) {
     a = 20;
     //console.log(a); 20
-    return;
+    return a;
 }
 
 //PASO POR VALOR
 cambiarValor(x); //10
 console.log(x);
-
 
 /* 
     En general solo se hace una copia del valor de la variable x
@@ -62,14 +61,14 @@ console.log(persona);
 /* 
     EXPLICACION
 
-    Se declaro una constante llamada persona, la cual es son objeto que tiene nombre Juan y apellido Pérez, estos son los valores iniciales de la variable
+    Se declaro una constante (objeto) llamada persona, la cual es objeto que tiene nombre Daniel y apellido Martínez, estos son los valores iniciales de la variable
 
     se creo una funcion llamada cambiarValorObjeto con el argumento p1, dentro de las llaves estara la sintaxis 
     p1.nombre = 'Fidencio'; 
     p1.apellido = 'Ocampo';
     termina la funcion
 
-    Ahora para el paso por referencia se manda llamar la variable cambiarValorObjeto en la cual tendrá como argumento la variable persona, los valores de la variable se asignarán a p1 por lo cual se puede acceder a los mismos atributos de la variable persona, asi se podra cambiar el atributo nombre y apellido, para cambiar el nombre se pone p1.nombre y se cambiara a fidencio, posteriormente p1.apellido y se cambiara a Ocampo y asi se cambiara el nombre y el apellido a la variable persona
+    Ahora para el paso por referencia se manda llamar la funcion cambiarValorObjeto en la cual tendrá como argumento la variable persona, los valores de la variable se asignarán a p1 por lo cual se puede acceder a los mismos atributos de la variable persona, asi se podra cambiar el atributo nombre y apellido, para cambiar el nombre se pone p1.nombre y se cambiara a fidencio, posteriormente p1.apellido y se cambiara a Ocampo y asi se cambiara el nombre y el apellido a la variable persona
 
     ya por ultimo se manda a imprimir la variable persona.
 

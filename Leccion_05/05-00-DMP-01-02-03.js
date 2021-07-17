@@ -7,6 +7,7 @@ while (contador < 3) {
     console.log(contador);
     contador++;
 }
+console.log(contador);
 console.log("Fin Ciclo While");
 
 /* EXPLICACIÓN: la variable contador comienza en 0 y la condicion dice 0 < 3, como si lo es entonces imprime 0 y despues a la variable contador se le suma uno por e incremento que tiene la variable, despues pregunta el programa (ojo aqui ya se incremento contador y ahora vale 1), 1 < 3, como si es menor a 3 se repite el programa y se incrementa en 1 la variable contador, ahora valdria dos, asi sucesivamente. cuando la variable contador valga 3, el ciclo terminara ya que 3 no es menos a 3 y ahi termina el programa*/
@@ -33,8 +34,9 @@ console.log("Fin Ciclo Do While");
 //En el ciclo for en necesario siempre incrementar o decrementar
 
 for (let contador1 = 0; contador1 < 3; contador1++) {
-    //variables; condicion; decremnto o decremento
+    //variables; condicion; incremnto o decremento
     console.log(contador1);
 }
+
 console.log("Fin del ciclo FOR")
 
