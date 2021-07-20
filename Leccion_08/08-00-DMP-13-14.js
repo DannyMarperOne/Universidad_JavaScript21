@@ -5,8 +5,8 @@
 let persona1 = {
     nombre: 'Daniel',
     apellido: 'Martinez',
-    nombreCompleto: function () { //definimos un metodo
-        return this.nombre + ' ' + this.apellido;
+    nombreCompleto: function (titulo, tel) { //definimos un metodo
+        return titulo + ' : ' + this.nombre + ' ' + this.apellido + ' , ' + tel;
     }
 }
 
@@ -21,3 +21,6 @@ console.log(persona1.nombreCompleto());
 
 //asi se usa call para usar nombreCompleto de persona1 en el objeto persona2
 console.log(persona1.nombreCompleto.call(persona2));
+
+//llamda de call con los argumentos que se le crearon a la funcion nombreCompleto
+console.log(persona1.nombreCompleto.call(persona2, 'Ingeniero', '2324554'));
