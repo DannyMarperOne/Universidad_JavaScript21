@@ -1,9 +1,14 @@
-//Método STATIC
+//Atributos Staticos
 
 class Persona {
+    //ATRIBUTO STATIC
+    static contadorObjetosPersona = 0; //(variable)este atributo pertenece a la clase y no pertenece a ningun objero
+
     constructor(nombre, apellido) {
         this._nombre = nombre;
         this._apellido = apellido;
+        Persona.contadorObjetosPersona++; //para acceder al operador static al momento de crear un nuevo objeto y se vaya incrementando
+        console.log('se incrementa contador:' + Persona.contadorObjetosPersona);
     }
     get nombre() {
         return this._nombre;
@@ -72,3 +77,14 @@ Persona.saludar2(persona1); //CAROLINA (solo se observa desde la consola porque 
 //ejemplo de que se hereda el metodo static
 Empleado.saludar();
 Empleado.saludar2(empleado1);
+
+
+//ATRIBUTOS STATIC
+//no se puede console.log(persona1.contadorObjetosPersona); 
+
+console.log(Persona.contadorObjetosPersona);
+//se puede acceder a esta variable pero desde la clase ya que como es static no se puede asociar con los objetos solo su clase.
+
+
+//las clases hijas tambien heredan los atributos estaticos
+console.log(Empleado.contadorObjetosPersona);
