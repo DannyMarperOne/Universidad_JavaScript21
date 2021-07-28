@@ -83,6 +83,7 @@ class Cliente extends Persona {
     }
 }
 
+
 //Prueba Clase Persona
 let persona1 = new Persona('Hernan', 'Hernandez', 34);
 console.log(persona1.toString());
