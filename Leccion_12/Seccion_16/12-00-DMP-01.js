@@ -1,4 +1,4 @@
-//? MANEJO DE ERRORES
+//? MANEJO DE ERRORES o EXCEPCIONES
 
 "use strict" //modo estricto
 
