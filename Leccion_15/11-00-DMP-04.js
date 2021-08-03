@@ -34,9 +34,9 @@ class Gerente extends Empleado {
 
 //todo: a esto se le llama "POLIMORFISMO" (sig. Multiples Formas), ya que una sola linea puede acceder al metodo de la clase padre o de la clase hija
 
+//! para preguntar con que tipo estamos trabajando usamos "instanceof", pero se recomienda primero poner clases de menor gerarquia y despues las de mayor geraquia
 function determinarTipo(tipo) {
     console.log(tipo.obtenerDetalles());
-    //! para preguntar con que tipo estamos trabajando usamos "instanceof", pero se recomienda primero poner clases de menor gerarquia y despues las de mayor geraquia
     if (tipo instanceof Gerente) { //! si la variable que estamos recibiendo es de tipo instanceof (viene) de la clase Gerente entonces....
         console.log('Es un objeto de tipo Gerente');
         console.log(tipo._departamento); //! aqui no se pone this en el atributo
